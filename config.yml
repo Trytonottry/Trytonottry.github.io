@@ -1,0 +1,11 @@
+title: Semyon's Portfolio
+description: Cybersecurity & Secure Development
+url: "https://Trytonottry.github.io"
+author:
+  name: "Semyon Popov"
+  email: "popovsemyona@gmail.com"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+highlighter: rouge
