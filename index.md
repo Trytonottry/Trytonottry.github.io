@@ -18,6 +18,6 @@ title: Home
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Trytonottry&show_icons=true&theme=radical)
 
 ## 🚀 Последние проекты
-{% for repo in site.github.public_repositories limit:6 %}
+{% for repo in site.github.public_repositories limit:10 %}
   [{{ repo.name }}]({{ repo.html_url }}) - {{ repo.description }}
 {% endfor %}
