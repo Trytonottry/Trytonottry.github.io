@@ -1,23 +1,37 @@
 ---
 layout: default
-title: Home
 ---
 
-# 👋 Привет, я Семён
+<section id="hero">
+  <img src="https://avatars.githubusercontent.com/u/189325575?s=200" alt="avatar" style="border-radius:50%; float:left; margin-right:2rem">
+  <h1>Привет, я Семён</h1>
+  <p>
+    <strong>🔐 Разрабатываю защищённые OC для RISC-V</strong><br>
+    🛠️ Создаю IoT-инструменты безопасности<br>
+    🕵️ Исследую утечки в даркнете
+  </p>
+  <a class="btn" href="#projects">Показать проекты</a>
+</section>
 
-**Кибербезопасник | Разработчик | Исследователь**
-
-![Profile]({{ '/assets/images/avatar.png' | relative_url }}){: width="200"}
-
-## 🎯 Что я делаю
-- Разрабатываю **защищённые ОС** для RISC-V
-- Создаю **инструменты для IoT-безопасности**
-- Исследую **dark web утечки**
+---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Trytonottry&show_icons=true&theme=radical)
+![Stats](https://github-readme-stats.vercel.app/api?username=Trytonottry&theme=radical&show_icons=true)
 
-## 🚀 Последние проекты
-{% for repo in site.github.public_repositories limit:10 %}
-  [{{ repo.name }}]({{ repo.html_url }}) - {{ repo.description }}
+---
+
+## 🚀 Проекты
+| Название | Описание | Язык |
+|----------|----------|------|
+| [**riscv-secure-os**](https://github.com/Trytonottry/riscv-secure-os) | Secure OS для RISC-V | Assembly |
+| [**AutoSecFlow**](https://github.com/Trytonottry/AutoSecFlow) | 20+ сканеров 1-кликом | Python |
+| [**WiFiSec**](https://github.com/Trytonottry/WiFiSec) | Android-сканер Wi-Fi | Kotlin |
+| [**DarkWeb Detect**](https://github.com/Trytonottry/DarkWebDetect) | Flutter-утилита для даркнета | Dart |
+
+---
+
+## 📬 Контакты
+- 📧 popovsemyona@gmail.com  
+- 🐙 [GitHub](https://github.com/Trytonottry)  
+- 🔴 [Reddit](https://www.reddit.com/user/CrazyGeneral3301/)  
 {% endfor %}
