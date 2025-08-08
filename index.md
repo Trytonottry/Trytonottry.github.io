@@ -34,4 +34,5 @@ layout: default
 - 📧 popovsemyona@gmail.com  
 - 🐙 [GitHub](https://github.com/Trytonottry)  
 - 🔴 [Reddit](https://www.reddit.com/user/CrazyGeneral3301/)  
+
 {% endfor %}
