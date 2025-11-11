@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semyon (Trytonottry) | DevOps & DevSecOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#7c3aed',
+                        secondary: '#0ea5a4',
+                        accent: '#f43f5e',
+                        dark: '#0f172a',
+                        darker: '#020617',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darker text-gray-100 font-sans antialiased overflow-x-hidden">
+    <custom-header></custom-header>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="hero" class="py-20 md:py-32">
+            <div class="container mx-auto flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                        Semyon /<br><span class="text-primary">Trytonottry</span>
+                    </h1>
+                    <h2 class="text-xl md:text-2xl font-semibold mb-4">DevOps & DevSecOps Engineer</h2>
+                    <p class="text-gray-300 mb-8 max-w-lg">
+                        Building secure, scalable infrastructures with a focus on automation, CI/CD pipelines,
+                        and cloud-native solutions. Transforming chaos into orderly systems.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#projects" class="bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1">
+                            View Projects
+                        </a>
+                        <a href="#contact" class="border border-secondary text-secondary hover:bg-secondary/10 px-6 py-3 rounded-lg font-medium transition-all duration-300">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-primary to-secondary rounded-full opacity-20 blur-3xl absolute -z-10"></div>
+                        <div class="w-64 h-64 md:w-80 md:h-80 bg-dark border-2 border-secondary/50 rounded-2xl overflow-hidden shadow-xl">
+                            <img src="http://static.photos/technology/640x360/42" alt="DevOps Automation" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-16">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-12 text-center">
+                    <span class="border-b-2 border-primary pb-2">Core Skills</span>
+                </h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="skill-card">
+                        <i data-feather="code" class="text-primary"></i>
+                        <h3 class="mt-2">Python</h3>
+                        <p class="text-gray-400">Automation & Tooling</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="terminal" class="text-secondary"></i>
+                        <h3 class="mt-2">Linux</h3>
+                        <p class="text-gray-400">System Administration</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="box" class="text-accent"></i>
+                        <h3 class="mt-2">Docker</h3>
+                        <p class="text-gray-400">Containerization</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="layers" class="text-primary"></i>
+                        <h3 class="mt-2">Ansible</h3>
+                        <p class="text-gray-400">Configuration Mgmt</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="repeat" class="text-secondary"></i>
+                        <h3 class="mt-2">CI/CD</h3>
+                        <p class="text-gray-400">Automated Pipelines</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="activity" class="text-accent"></i>
+                        <h3 class="mt-2">Prometheus</h3>
+                        <p class="text-gray-400">Monitoring</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="shield" class="text-primary"></i>
+                        <h3 class="mt-2">Security</h3>
+                        <p class="text-gray-400">DevSecOps</p>
+                    </div>
+                    <div class="skill-card">
+                        <i data-feather="server" class="text-secondary"></i>
+                        <h3 class="mt-2">Proxmox</h3>
+                        <p class="text-gray-400">Virtualization</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-16">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-12 text-center">
+                    <span class="border-b-2 border-primary pb-2">Featured Projects</span>
+                </h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="http://static.photos/technology/640x360/11" alt="AutoSecFlow">
+                        </div>
+                        <div class="project-content">
+                            <h3>AutoSecFlow</h3>
+                            <div class="tags">
+                                <span>DevSecOps</span>
+                                <span>CI/CD</span>
+                                <span>Automation</span>
+                            </div>
+                            <p>Automated security pipeline integration for development workflows</p>
+                            <a href="https://github.com/trytonottry/AutoSecFlow" class="project-link">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="http://static.photos/technology/640x360/22" alt="Sentinel-Vault">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sentinel-Vault</h3>
+                            <div class="tags">
+                                <span>Security</span>
+                                <span>Encryption</span>
+                                <span>Python</span>
+                            </div>
+                            <p>Secure secret management with automated rotation capabilities</p>
+                            <a href="https://github.com/trytonottry/Sentinel-Vault" class="project-link">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="http://static.photos/technology/640x360/33" alt="infosec-newbie">
+                        </div>
+                        <div class="project-content">
+                            <h3>infosec-newbie</h3>
+                            <div class="tags">
+                                <span>Learning</span>
+                                <span>Tools</span>
+                                <span>Python</span>
+                            </div>
+                            <p>Educational resources and tools for information security beginners</p>
+                            <a href="https://github.com/trytonottry/infosec-newbie" class="project-link">
+                                View on GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="http://static.photos/technology/640x360/44" alt="sharp-vless">
+                        </div>
+                        <div class="project-content">
+                            <h3>sharp-vless</h3>
+                            <div class="tags">
+                                <span>Networking</span>
+                                <span>C#</span>
+                                <span>Client</span>
+                            </div>
+                            <p>High-performance network client for secure communications
+</body>
+</html>
